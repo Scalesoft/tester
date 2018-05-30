@@ -147,7 +147,7 @@ class CommandLine
 	}
 
 
-	public function help(): string
+	public function help(): void
 	{
 		echo $this->help;
 	}
